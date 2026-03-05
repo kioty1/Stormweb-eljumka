@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Store Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 16px; }
+        .row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+        input, select, button { padding: 8px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+        .card { border: 1px solid #ddd; border-radius: 10px; padding: 12px; }
+        .muted { color: #666; font-size: 12px; }
+        .pill { display: inline-block; padding: 2px 8px; border: 1px solid #ccc; border-radius: 999px; font-size: 12px; }
+        .delete-btn {background: #dc2626;color: #fff;border: 1px solid #b91c1c;border-radius: 6px;cursor: pointer;}
+        .delete-btn:hover {background: #b91c1c;}
+    </style>
+</head>
+<body>
+<h1>Store</h1>
+<div id="app"></div>
+
+<!-- подключаем скомпилированный JS -->
+<script type="module" src="./dist/app.js"></script>
+</body>
+</html>

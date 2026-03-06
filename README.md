@@ -29,8 +29,12 @@ src/
   app.ts      # main logic, UI render, localStorage
   domain.ts   # business logic and calculations
   types.ts    # TypeScript types
+  index.ts    # Local storage emulation
 dist/
   app.js      # compiled browser file
+  domain.js   
+  types.js    
+  index.js    
 index.html    # app page
 ```
 

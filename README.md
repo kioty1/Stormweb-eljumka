@@ -17,6 +17,8 @@ Interactive web app for product management:
 ```bash
 npm install
 npm run build
+npx serve
+Ok to proceed? (y) y
 ```
 
 Then open `index.html` in a browser.

@@ -21,7 +21,7 @@ npx serve
 Ok to proceed? (y) y
 ```
 
-Then open `index.html` in a browser.
+Then you can open Web-application with Local URL.
 
 ## Project Structure
 ```text
